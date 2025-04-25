@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)file:///C:/c%2B%2B%20course/.vscode/port%20try2.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tejas Kurude - Portfolio</title>
+  <style>
+    :root {
+      --cream: #fefaf6;
+      --brown: #5d4037;
+      --accent: #8d6e63;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    body {
+      display: flex;
+      min-height: 100vh;
+      color: var(--brown);
+    }
+
+    /* Profile Section (30%) */
+    .profile {
+      width: 30%;
+      background: var(--brown);
+      color: white;
+      padding: 40px;
+      text-align: center;
+      position: fixed;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .profile-img {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid var(--accent);
+      margin-bottom: 25px;
+    }
+
+    .profile h1 {
+      font-size: 1.8rem;
+      margin-bottom: 10px;
+    }
+
+    .profile p {
+      margin-bottom: 5px;
+      line-height: 1.6;
+    }
+
+    /* Content Section (70%) */
+    .content {
+      width: 70%;
+      margin-left: 30%;
+      background: var(--cream);
+      padding: 50px;
+    }
+
+    section {
+      margin-bottom: 40px;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid var(--accent);
+    }
+
+    p {
+      margin-bottom: 15px;
+      line-height: 1.6;
+    }
+
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 15px;
+    }
+
+    .skill {
+      background: rgba(141, 110, 99, 0.1);
+      padding: 8px 15px;
+      border-radius: 20px;
+    }
+
+    .certificate-img {
+      max-width: 100%;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      body {
+        flex-direction: column;
+      }
+      .profile {
+        width: 100%;
+        position: static;
+        height: auto;
+        padding: 30px 20px;
+      }
+      .content {
+        width: 100%;
+        margin-left: 0;
+        padding: 30px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Left Profile Section (30%) -->
+  <div class="profile">
+    <img src="./Tejas Kurude - Portfolio_files/my img.jpg" alt="Tejas Kurude" class="profile-img">
+    <h1>Tejas Kurude</h1>
+    <p>MIT AOE | B.Tech Student</p>
+    <p>Chess Enthusiast</p>
+  </div>
+
+  <!-- Right Content Section (70%) -->
+  <div class="content">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am currently pursuing my B.Tech in Computer Science at MIT AOE with a passion for software development and problem-solving.</p>
+      <p>My journey in coding began with C/C++ and has expanded to include web technologies like HTML, CSS, and JavaScript. I enjoy the logical challenges that programming presents.</p>
+      <p>When I'm not coding, you can find me playing chess (my favorite strategic game) or capturing moments through photography.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Technical Skills</h2>
+      <div class="skills">
+        <span class="skill">HTML</span>
+        <span class="skill">CSS</span>
+        <span class="skill">JavaScript</span>
+        <span class="skill">C++</span>
+        <span class="skill">C</span>
+        <span class="skill">Python</span>
+      </div>
+    </section>
+
+    <section id="certificates">
+      <h2>Certifications</h2>
+      <img src="./Tejas Kurude - Portfolio_files/Screenshot 2025-02-22 225503.png" alt="Certificate 1" class="certificate-img">
+      <img src="./Tejas Kurude - Portfolio_files/Screenshot 2025-02-22 225519.png" alt="Certificate 2" class="certificate-img">
+    </section>
+
+    <section id="contact">
+      <h2>Get In Touch</h2>
+      <p><strong>Email:</strong> <a href="mailto:tejaskurude978@gmail.com">tejaskurude978@gmail.com</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/" target="_blank">linkedin.com/in/tejaskurude</a></p>
+      <p><strong>GitHub:</strong> <a href="https://github.com/" target="_blank">github.com/tejaskurude</a></p>
+    </section>
+  </div>
+
+
+</body></html>
